@@ -394,7 +394,7 @@ def helper_map_value(input_val, in_range_min, in_range_max, out_range_min, out_r
         return out_range_min
     
     if ENABLE_CPP_ACCELERATION:
-        return game_accelerator.map_finger_position(
+        result = game_accelerator.map_finger_position(
             input_val, input_val,  # Using C++ function for accurate calculations
             in_range_min, in_range_max, 
             in_range_min, in_range_max,
