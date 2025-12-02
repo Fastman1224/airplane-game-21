@@ -189,7 +189,3 @@ python airplane.py
 
 **Enjoy the game! 🎮✨**
 
----
-
-Made with ❤️ by GitHub Copilot
-Date: December 2, 2025
