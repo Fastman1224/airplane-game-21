@@ -1,4 +1,4 @@
-# 🎮 Airplane Game - Version 21 (C++ Accelerated)
+# 🎮 Airplane Game (C++ Accelerated)
 <img width="1344" height="768" alt="Generated Image December 02, 2025 - 5_26PM" src="https://github.com/user-attachments/assets/e9842756-2fa7-41c0-9d42-5b9305c37ba6" />
 <img width="909" height="730" alt="Screenshot 2025-12-02 171723" src="https://github.com/user-attachments/assets/944eb4dd-39a6-458b-aa4c-664f44523de3" />
 <img width="893" height="726" alt="Screenshot 2025-12-02 172156" src="https://github.com/user-attachments/assets/710320d7-a6c1-4080-803f-205a6b3a029d" />
@@ -161,7 +161,6 @@ python airplane.py
 
 ## 📈 Changelog
 
-### Version 21 (Latest)
 - ✅ Python Fallback Acceleration
 - ✅ C++ Optional Support
 - ✅ Auto-Detection System
