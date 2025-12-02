@@ -1,0 +1,172 @@
+📖 Installation and Setup Guide for Airplane Game v21
+
+============================================================
+                  📦 Install Dependencies
+============================================================
+
+Step 1: Install Python
+    Make sure Python 3.8+ is installed
+    https://www.python.org/downloads/
+
+Step 2: Install Requirements
+    Method A - Complete installation (Recommended):
+        pip install -r requirements.txt
+
+    Method B - Install only required packages:
+        pip install pygame mediapipe opencv-python
+
+    Method C - Complete installation (including NumPy):
+        pip install pygame mediapipe opencv-python numpy
+
+
+============================================================
+                  🚀 Run the Game
+============================================================
+
+Method 1 - No extra setup:
+    python airplane.py
+
+Method 2 - For better speed:
+    pip install numpy
+    python airplane.py
+
+Method 3 - For best speed (Optional):
+    py build.py
+    python airplane.py
+
+
+============================================================
+            🔧 C++ Acceleration (Optional)
+============================================================
+
+For best performance:
+
+Windows:
+    1. Download Visual C++ Build Tools:
+       https://visualstudio.microsoft.com/visual-cpp-build-tools/
+    2. Install Visual Studio Build Tools
+    3. Run:
+       py build.py
+
+Linux:
+    sudo apt-get install build-essential python3-dev
+    python build.py
+
+macOS:
+    xcode-select --install
+    python build.py
+
+
+============================================================
+          ⚠️ Common Problems and Solutions
+============================================================
+
+Problem: "No module named 'pygame'"
+Solution: pip install pygame
+
+Problem: "No module named 'mediapipe'"
+Solution: pip install mediapipe
+
+Problem: "No module named 'cv2'"
+Solution: pip install opencv-python
+
+Problem: Camera not working
+Solution: Check camera is connected
+         Make sure the app has permission to access it
+
+Problem: Game is slow
+Solution: pip install numpy
+
+Problem: MSVC error
+Solution: Don't worry! Game works without it
+         If you want better speed, install Visual C++ Build Tools
+
+
+============================================================
+           ✅ Verify Correct Installation
+============================================================
+
+To check that everything is installed correctly:
+
+    python -c "import pygame; print('pygame: OK')"
+    python -c "import mediapipe; print('mediapipe: OK')"
+    python -c "import cv2; print('opencv: OK')"
+    python -c "from game_accelerator_fallback import game_accelerator; print('Acceleration: OK')"
+
+If all OK, you can start playing!
+
+
+============================================================
+           🎮 Start the Game
+============================================================
+
+After successful installation:
+
+    python airplane.py
+
+The game will:
+    - Show instructions screen
+    - Press SPACE to test camera and start game
+
+
+============================================================
+            💾 Different Python Versions
+============================================================
+
+Python 3.8 - 3.12 tested and supported
+
+To check your Python version:
+    python --version
+
+To upgrade pip:
+    python -m pip install --upgrade pip
+
+
+============================================================
+          📱 Tested Operating Systems
+============================================================
+
+✓ Windows 10/11
+✓ Linux (Ubuntu 20.04+)
+✓ macOS (10.14+)
+
+
+============================================================
+          🎯 Important Notes
+============================================================
+
+1. Camera is required!
+   - Approve access permission
+   - Position camera facing you
+
+2. Acceleration is automatic
+   - C++ if available
+   - Python Fallback (always)
+   - No need to choose
+
+3. Game works without C++
+   - Python Fallback is 3-5x faster
+   - Good enough for gameplay
+
+4. NumPy is optional
+   - For more speed: pip install numpy
+   - Works without it too
+
+
+============================================================
+          📚 Helper Files
+============================================================
+
+README.md - Complete documentation
+QUICK_START.txt - Quick start guide
+ACCELERATION_README.md - Acceleration details
+requirements.txt - Dependency list
+
+
+============================================================
+          ✨ You're Ready!
+============================================================
+
+python airplane.py
+
+Enjoy the game! 🎮

@@ -1,0 +1,13 @@
+# Requirements for Airplane Game v21
+
+# Essential (الزامی)
+pygame>=2.1.0
+mediapipe>=0.8.0
+opencv-python>=4.5.0
+
+# Optional (اختیاری - برای بهتری سرعت)
+numpy>=1.21.0
+
+# Optional (اختیاری - برای C++ Build)
+pybind11>=2.6.0
+setuptools>=60.0.0

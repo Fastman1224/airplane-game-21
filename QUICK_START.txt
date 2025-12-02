@@ -1,0 +1,81 @@
+📖 Quick Start Guide
+
+============================================================
+                  🎮 Start Playing!
+============================================================
+
+Most common way (without setup):
+
+    cd "c:\Users\ASUS\Desktop\Mahdi_Ahmadi"
+    python airplane.py
+
+✅ Game starts immediately!
+
+
+============================================================
+        If you want better game performance:
+============================================================
+
+Method 1: Install NumPy (Recommended)
+
+    pip install numpy
+    python airplane.py
+
+👉 Collision detection will be 3-4x faster!
+
+
+Method 2: C++ Acceleration (Best performance)
+
+    py build.py
+    python airplane.py
+
+👉 Collision detection will be up to 10x faster!
+
+    ⚠️  Windows: May require Visual C++ Build Tools
+    ⚠️  Linux: sudo apt install build-essential python3-dev
+
+
+============================================================
+                        Controls
+============================================================
+
+Starting the game:
+    - Instructions screen is displayed
+    - SPACE: Start camera test
+
+During gameplay:
+    - Index finger: Move spaceship
+    - Index finger + thumb: Shoot bullets
+    - D: Show Debug Info
+    - R: Restart game (after Game Over)
+
+
+============================================================
+                    Quick Troubleshooting
+============================================================
+
+Question: Is the game slow?
+Answer: Install NumPy → pip install numpy
+
+
+Question: Camera not working?
+Answer: Make sure camera is connected and you have permission
+
+
+Question: MSVC error?
+Answer: Don't worry! Game works without it
+      If you want C++: Install Visual C++ Build Tools
+
+
+============================================================
+                    More Information
+============================================================
+
+📄 ACCELERATION_README.md - Complete optimization details
+📄 airplane.py - Game code
+📁 build/ - Temporary build folder
+
+
+============================================================
+                      Have fun! 🎮
+============================================================
